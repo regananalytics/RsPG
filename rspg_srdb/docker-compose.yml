@@ -8,7 +8,6 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./srd-data:/data/srd:ro
       - mongodb-data:/data/db
 
 volumes:
